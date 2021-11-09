@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@aura-ng-nj/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@aura-ng-nj/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@aura-ng-nj/core-data": ["libs/core-data/src/index.ts"],
+      "@aura-ng-nj/core-state": ["libs/core-state/src/index.ts"],
+      "@aura-ng-nj/material": ["libs/material/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
